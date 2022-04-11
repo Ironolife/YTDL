@@ -28,7 +28,7 @@ const InfoView: VFC = () => {
 			<Image
 				width={256}
 				height={144}
-				src={thumbnails.at(-1)?.url} // Largest thumbnail
+				src={thumbnails.slice(-1)[0].url} // Largest thumbnail
 				alt='thumbnail'
 				radius='sm'
 			/>
