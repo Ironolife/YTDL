@@ -7,10 +7,14 @@ import {
 	Text,
 	Title,
 } from '@mantine/core';
-import type { NextPage } from 'next';
+import type { GetStaticProps, NextPage } from 'next';
 import FormatsTable from '../components/FormatsTable';
 import InfoView from '../components/InfoView';
 import Searchbar from '../components/Searchbar';
+
+export const getStaticProps: GetStaticProps = async (context) => {
+	return { props: {} };
+};
 
 const Home: NextPage = () => {
 	return (
