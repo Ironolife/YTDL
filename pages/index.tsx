@@ -23,7 +23,11 @@ const Home: NextPage = () => {
 				<FormatsTable />
 				<Divider variant='dashed' />
 				<Group sx={{ justifyContent: 'space-between' }}>
-					<Anchor href='https://github.com/Ironolife' target='_blank'>
+					<Anchor
+						href='https://github.com/Ironolife'
+						target='_blank'
+						color='dark'
+					>
 						Made By Ironolife © 2022
 					</Anchor>
 					<Text>Updated 2022-04-11</Text>
