@@ -37,7 +37,7 @@ const FormatsTable: VFC = () => {
 									component='a'
 									href={`/api/download?url=${video_url}&itag=${itag}`}
 									target='_blank'
-									color='indigo'
+									color='violet'
 								>
 									Download
 								</Button>

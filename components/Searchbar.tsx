@@ -44,7 +44,7 @@ const Searchbar: VFC = () => {
 				<Button
 					type='submit'
 					size='md'
-					color='indigo'
+					color='violet'
 					disabled={getInfoMutation.isLoading}
 				>
 					Fetch

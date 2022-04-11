@@ -2,7 +2,6 @@ import {
 	Anchor,
 	Container,
 	Divider,
-	Footer,
 	Group,
 	Stack,
 	Text,
